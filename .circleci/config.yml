@@ -14,8 +14,8 @@ jobs:
       - checkout
       - run: npm install
       - run: cd android && ./gradlew assembleRelease
-        - store_artifacts:
-          path: test-results
+      - store_artifacts:
+        path: test-results
 
   ios:
       macos:
