@@ -34,8 +34,9 @@ workflows:
     jobs:
       - node
       - android:
-        requires:
-          - node
+          requires:
+            - node
       - ios:
-        requires:
-          - node
+          requires:
+            - node
+
